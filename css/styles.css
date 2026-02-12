@@ -9,9 +9,23 @@ body{
     margin: auto;
     background: white;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
+    margin-top: 20px;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.side img{
+    max-width: 100px;
+    height: auto;
+}
+.side h4{
+    flex: 1;
 }
 .navbar{
     display: flex;
@@ -149,7 +163,7 @@ h4 .ab{
 .form{
     background-color: #f9f9f9;
     border-radius: 15px;
-    padding: 25px;
+    padding: 15px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -158,7 +172,7 @@ h4 .ab{
     text-align: center;
     width: 100%;
     max-width: 400px;
-    margin: 50px auto;
+    margin: 0px auto;
     border-radius: 10px;
 }
 #submit{
