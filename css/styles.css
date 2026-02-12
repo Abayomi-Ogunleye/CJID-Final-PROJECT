@@ -8,23 +8,28 @@ body{
     border-radius: 20px;
     padding: 40px;
     align-items: center;
+    justify-content: space-between;
 }
 .navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(120, 111, 215);
-    padding: 15px 0;
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    background: rgb(120, 111, 215);
     gap: 20px;
+    top: 0;
 }
 .navbar a{
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: #00bcd4;
+    transform: translateY(-3px);
 }
 button{
     background-color: rgb(120, 111, 215);
@@ -42,11 +47,18 @@ button:hover{
     transform: translateY(-3px);
     box-shadow: 10px;
 }
+.main img{
+    width: 300px;
+}
 img{
     width: auto;
     height: auto;
     border-radius: 20px;
     max-width: 200px;
+    transition: 0.9s;
+}
+img:hover{
+    transform: translateY(-3px);
 }
 .side{
     display: flex;
