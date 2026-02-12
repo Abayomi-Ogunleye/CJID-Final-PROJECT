@@ -10,13 +10,11 @@
 <body>
     <nav>
     <div class="navbar">
-    <ul class="ul">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#contact_form">Contact Form</a></li>
-    </ul>
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact_form">Contact Form</a>
     </div>
     </nav>
     <div class="main">
@@ -93,32 +91,21 @@
         <br>
         <div>
             <h2 id="contact_form">Contact/Feedback Form</h2>
-            <form action="">
-                <div class="form">
+            <form class="form" action="https://formsubmit.co/9cbc99e8f7702e02319371c639d60b4b" method="POST">
+                <div>
                     <p>
-                    <div>
-                    <label for="">Mr</label>
-                    <input type="radio" name="title">
-
-                    <label for="">Mrs</label>
-                    <input type="radio" name="title">
-
-                    <label for="">Dr</label>
-                    <input type="radio" name="title">
-                    </div>
+                    <input type="text" placeholder="First name" id="fname" name="Firstname" required>
                     <br>
-                    <input type="text" placeholder="First name" id="fname" required>
+                    <input type="text" placeholder="Last name" id="lname" name="Lastname" required>
                     <br>
-                    <input type="text" placeholder="Last name" id="lname" required>
+                    <input type="tel" placeholder="Telephone Number" name="Telephone" required>
                     <br>
-                    <input type="tel" placeholder="Telephone Number" required>
+                    <input type="email" placeholder="E-mail"  name="email"required>
                     <br>
-                    <input type="email" placeholder="E-mail" required>
+                    <textarea placeholder="FeedBack" rows="5" name="FeedBack"></textarea>
                     <br>
-                    <input type="text" placeholder="Feedback">
+                    <button type="Submit" id="sumit">Submit</button>
                     </p>
-                    <input type="submit" id="submit">
-                    <input type="reset" id="submit">
                 </div>
             </form>
         </div>

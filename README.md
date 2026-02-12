@@ -11,3 +11,7 @@ This is my personal portfolio website and i built it using HTML, CSS and JavaScr
 - My projects with a Link to my Behance Portfolio in UI/Ux
 - My contacts with clickable icons
 - A contact Form that returns a message when clciked
+
+## Programming Languages Used
+- HTML
+- 
