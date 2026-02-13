@@ -215,3 +215,31 @@ h4 .ab{
 .form button:hover{
     background-color: #0056b3;
 }
+.specialthanks{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 80px auto;
+    color: rgb(120, 111, 215);
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.specialthanks h4:hover{
+    color: #5e2ecf;
+    transition: 0.3s ease;
+}
+.specialthanks strong{
+    display: inline-block;
+    animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0);}
+    50% {transform: translateY(-5px)}
+    100% {transform: translateY(0)}
+}
+.specialthanks strong:hover{
+   color: #5e2ecf;
+}
