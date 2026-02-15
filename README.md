@@ -1,27 +1,11 @@
 "# CJID-Final-PROJECT" 
-# Abayomi Ogunleye Portfolio Website
+# My Profile Website
 
-This is my personal portfolio website and i built it using HTML, CSS and JavaScript. it features my Skills, Projects, Contacts and a little about me.
+## Project Name
+**Ogunleye Abayomi Portfolio Website**
 
-## Components of the WEBSITE
-- About me.
-- Responsive Navigation Bar (mobile & desktop).
-- Technical & Design skills.
-- Interactive Buttons.
-- My projects with a Link to my Behance Portfolio in UI/Ux.
-- My contacts with clickable icons.
-- A CONTACT FORM THAT WORKS AND SENDS THE FORM RESPONSE DIRECTLY TO MY EMAIL USING FORMSUBMIT.
+## What Problem does it solve?
+This project is to showcase my projects, skills and contect including a form i can be contacted through. A client or an employer can easily view all of these and they know about me and my capacities.
 
-## Programming Languages Used
-- HTML
-- CSS
-- JavaScript
-
-## Project Structure
-- index.html
-- styles.css
-- script.js
-- assets
-
-## Netlify Link
-- Netlify: https://abayomi-o-portfolio.netlify.app/
+## What was the hardest piece of code you wrote?
+Omo, the hardest pieces of codes i wrote where the Hamnburger menu, i had to watch series of videos until i understood the concept. The javascript and CSS too for buttons and the menu, quite a tough one.

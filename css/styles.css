@@ -288,3 +288,7 @@ h4 .ab{
 .specialthanks strong:hover{
    color: #5e2ecf;
 }
+footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
