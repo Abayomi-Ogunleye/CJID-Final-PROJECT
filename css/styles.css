@@ -28,35 +28,80 @@ body{
     flex: 1;
     font-weight: 500;
 }
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.off-screen-menu{
+    background-color: rgb(34, 37, 49);
+    height: 100vh;
     width: 100%;
-    padding: 15px 0px;
-    background: rgb(120, 111, 215);
-    gap: 10px;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    font-size: 3rem;
+    transition: .3s ease;
+    z-index: 2;
 }
-.navbar a{
+.off-screen-menu.active {
+    right: 0;
+}
+.off-screen-menu a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    transition: 0.5s;
 }
-.navbar a:hover{
-    color: #00bcd4;
-    transform: translateY(-3px);
+.cancel{
+    font-size: small;
 }
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column; /* stack links vertically */
-        padding: 10px;
-        gap: 5px;
-    }
-    .navbar a {
-        font-size: 14px; /* smaller font for mobile */
-    }
+ul{
+    list-style: none;
 }
+nav{
+    padding: 1rem;
+    display: flex;
+    background-color: rgb(120, 111, 215);
+}
+nav h2{
+    color: white;
+}
+.navmenu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+    z-index: 3;
+}
+.navmenu span{
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+.navmenu span:nth-child(1) {
+    top: 25%;
+}
+.navmenu span:nth-child(3) {
+    top: 75%;
+}
+.navmenu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.navmenu.active span:nth-child(2) {
+    opacity: 0;
+}
+.navmenu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, 50%) rotate(-45deg);
+}
+
 button{
     background-color: rgb(120, 111, 215);
     color: white;
